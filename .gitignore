@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Build / runtime artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Compiled / generated files
+*.b64
+
+# Shell / patch scripts
+*.sh
+
+# Scripts folder (if not needed in repo)
+scripts/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+
+*.yaml
+*.yml
+*.orc

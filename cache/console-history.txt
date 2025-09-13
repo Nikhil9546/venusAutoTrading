@@ -1,0 +1,33 @@
+console.log({ agentId, txHash: rc.transactionHash });
+const rc = await tx.wait(1);
+const tx = await reg.createAgent(agentId, uri);
+const uri = JSON.stringify({ tgid: tgId, source: "manual" });
+// await (await reg.grantRole(role, (await ethers.getSigners())[0].address)).wait();
+// const role = await reg.MANAGER_ROLE();
+// optional: grant yourself manager role if needed
+const agentId = ethers.utils.keccak256(enc);
+const enc = ethers.utils.defaultAbiCoder.encode(["string"], [tgId]);
+// compute agentId = keccak256(abi.encode(["string"],[telegramId]))
+const reg = await ethers.getContractAt(abi, REG);
+];
+  "function grantRole(bytes32 role, address account)",
+  "function MANAGER_ROLE() view returns (bytes32)",
+  "function createAgent(bytes32 agentID, string uri)",
+const abi = [
+const tgId = "828537097";                 // Telegram user ID as string
+const REG = "0xYourRegistryAddress";     // AGENT_REGISTRY_ADDRESS
+// paste into the console
+console.log("Is bot manager?", await reg.hasRole(managerRole, botAddr));
+console.log("Is bot admin?", await reg.hasRole(adminRole, botAddr));
+console.log("Bot address:", botAddr);
+const botAddr = new ethers.Wallet(process.env.PRIVATE_KEY).address;
+const managerRole = await reg.MANAGER_ROLE();
+const adminRole = await reg.DEFAULT_ADMIN_ROLE();
+);
+  "0xeb5f557C1d45084fAe07033EAB14F42d9"
+  ],
+    "function hasRole(bytes32, address) view returns (bool)"
+    "function MANAGER_ROLE() view returns (bytes32)",
+    "function DEFAULT_ADMIN_ROLE() view returns (bytes32)",
+  [
+const reg = await ethers.getContractAt(
