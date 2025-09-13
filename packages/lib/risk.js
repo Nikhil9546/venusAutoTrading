@@ -4,7 +4,7 @@
 const { users } = require('./db');
 
 const DEFAULT_ZKAGI = {
-  capitalUsagePercent: 0.30,
+  capitalUsagePercent: 0.05,
   maxLeverage: 25,
   minLeverage: 5,
   maxProfit: 100,
