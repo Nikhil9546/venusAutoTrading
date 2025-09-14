@@ -1,4 +1,4 @@
-# AVAX Trading Bot (TEE‑secured)
+# AVAX AI Trading Bot (TEE‑secured)
 
 A secure **Telegram bot** that trades **AVAX perpetuals** using encrypted strategies and on‑chain agent management.
 
