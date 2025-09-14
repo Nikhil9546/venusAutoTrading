@@ -90,7 +90,7 @@ TEE_GATEWAY_URL=https://<your-tee>
 TEE_APP_ID=tee1q...
 
 # AVAX signal endpoint
-AVAX_SIGNAL_URL=http://31.57.124.209:5000/avax/latest
+AVAX_SIGNAL_URL= 
 ```
 
 > MongoDB URL & other app configs as usual.
